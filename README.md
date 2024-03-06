@@ -27,7 +27,7 @@ Each call returns a data frame containing job data for the respective search ter
 Combining DataFrames:
 
 After scraping job data for both search terms,
-the script concatenates the two DataFrames into one using the pd. concat function from the Pandas library.
+the script concatenates the two DataFrames into one using the pd.concat function from the Pandas library.
 The combined data frame contains job listings for both "analyst" and "customer service" positions.
 Saving to CSV:
 
